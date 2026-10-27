@@ -1,0 +1,128 @@
+# do sim.do
+# apagando biblioteca WORK...
+# recriando biblioteca WORK...
+#  
+# QuestaSim-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+# Start time: 01:25:37 on Oct 24,2026
+# vlog ../rtl/watchdog.sv 
+# ** Note: (vlog-220) '/soft64/mentor/ferramentas/questa/2025.3/questasim/linux_x86_64/../modelsim.ini' is used as the ini file.
+# -- Compiling module watchdog
+# 
+# Top level modules:
+# 	watchdog
+# End time: 01:25:37 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+# Start time: 01:25:37 on Oct 24,2026
+# vlog ../rtl/ps2_decoder.sv 
+# ** Note: (vlog-220) '/soft64/mentor/ferramentas/questa/2025.3/questasim/linux_x86_64/../modelsim.ini' is used as the ini file.
+# -- Compiling module ps2_decoder
+# 
+# Top level modules:
+# 	ps2_decoder
+# End time: 01:25:37 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+# Start time: 01:25:37 on Oct 24,2026
+# vlog ../rtl/ps2_driver.sv 
+# ** Note: (vlog-220) '/soft64/mentor/ferramentas/questa/2025.3/questasim/linux_x86_64/../modelsim.ini' is used as the ini file.
+# -- Compiling module ps2_driver
+# 
+# Top level modules:
+# 	ps2_driver
+# End time: 01:25:38 on Oct 24,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2025.3 Compiler 2025.09 Sep 15 2025
+# Start time: 01:25:38 on Oct 24,2026
+# vlog ../sim/ps2_driver_tb.sv 
+# ** Note: (vlog-220) '/soft64/mentor/ferramentas/questa/2025.3/questasim/linux_x86_64/../modelsim.ini' is used as the ini file.
+# -- Compiling module ps2_driver_tb
+# 
+# Top level modules:
+# 	ps2_driver_tb
+# End time: 01:25:38 on Oct 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Note: (vsim-220) '/soft64/mentor/ferramentas/questa/2025.3/questasim/linux_x86_64/../modelsim.ini' is used as the ini file.
+# vsim -voptargs="+acc" -wlfdeleteonquit work.ps2_driver_tb 
+# Start time: 01:25:38 on Oct 24,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vopt-220) '/soft64/mentor/ferramentas/questa/2025.3/questasim/linux_x86_64/../modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "ps2_driver(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2025.3 linux_x86_64 Sep 15 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.ps2_driver_tb(fast)
+# Loading work.ps2_driver(fast)
+# Loading work.ps2_decoder(fast)
+# Loading work.watchdog(fast)
+# 1
+# 1
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.ps2_driver_tb(fast)
+# Loading work.ps2_driver(fast)
+# Loading work.ps2_decoder(fast)
+# Loading work.watchdog(fast)
+# === Verificacao do ps2_driver ===
+# [100000] PASS | T1 reset
+# [14100000] PASS | T2 tecla A sc=0x1c
+# [27100000] PASS | T3 alfanumerico sc=0x16
+# [40100000] PASS | T3 alfanumerico sc=0x1e
+# [53100000] PASS | T3 alfanumerico sc=0x26
+# [66100000] PASS | T3 alfanumerico sc=0x25
+# [79100000] PASS | T3 alfanumerico sc=0x2e
+# [92100000] PASS | T3 alfanumerico sc=0x36
+# [105100000] PASS | T3 alfanumerico sc=0x3d
+# [118100000] PASS | T3 alfanumerico sc=0x3e
+# [131100000] PASS | T3 alfanumerico sc=0x46
+# [144100000] PASS | T3 alfanumerico sc=0x45
+# [157100000] PASS | T3 alfanumerico sc=0x1c
+# [170100000] PASS | T3 alfanumerico sc=0x32
+# [183100000] PASS | T3 alfanumerico sc=0x21
+# [196100000] PASS | T3 alfanumerico sc=0x23
+# [209100000] PASS | T3 alfanumerico sc=0x24
+# [222100000] PASS | T3 alfanumerico sc=0x2b
+# [235100000] PASS | T3 alfanumerico sc=0x34
+# [248100000] PASS | T3 alfanumerico sc=0x33
+# [261100000] PASS | T3 alfanumerico sc=0x43
+# [274100000] PASS | T3 alfanumerico sc=0x3b
+# [287100000] PASS | T3 alfanumerico sc=0x42
+# [300100000] PASS | T3 alfanumerico sc=0x4b
+# [313100000] PASS | T3 alfanumerico sc=0x3a
+# [326100000] PASS | T3 alfanumerico sc=0x31
+# [339100000] PASS | T3 alfanumerico sc=0x44
+# [352100000] PASS | T3 alfanumerico sc=0x4d
+# [365100000] PASS | T3 alfanumerico sc=0x15
+# [378100000] PASS | T3 alfanumerico sc=0x2d
+# [391100000] PASS | T3 alfanumerico sc=0x1b
+# [404100000] PASS | T3 alfanumerico sc=0x2c
+# [417100000] PASS | T3 alfanumerico sc=0x3c
+# [430100000] PASS | T3 alfanumerico sc=0x2a
+# [443100000] PASS | T3 alfanumerico sc=0x1d
+# [456100000] PASS | T3 alfanumerico sc=0x22
+# [469100000] PASS | T3 alfanumerico sc=0x35
+# [482100000] PASS | T3 alfanumerico sc=0x1a
+# [495100000] PASS | T4 espaco sc=0x29
+# [508100000] PASS | T9 paridade errada sc=0x1c
+# [521100000] PASS | T9 stop errado sc=0x1c
+# [534100000] PASS | T9 recupera sc=0x1c
+# [791100000] PASS | T10 truncado
+# [804100000] PASS | T10 recupera sc=0x35
+# [818750000] PASS | T11 glitch + tecla sc=0x1a
+# End time: 01:25:52 on Oct 24,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1

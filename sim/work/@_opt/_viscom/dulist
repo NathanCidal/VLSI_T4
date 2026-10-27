@@ -1,0 +1,4 @@
+1 11 ps2_decoder 4 fast 34 /sim/nathan.cidal/VLSI_T4/sim/work 1 0 0 0 125 0
+1 8 watchdog 4 fast 34 /sim/nathan.cidal/VLSI_T4/sim/work 1 0 0 0 96 0
+1 10 ps2_driver 4 fast 34 /sim/nathan.cidal/VLSI_T4/sim/work 1 0 0 0 406 0
+1 13 ps2_driver_tb 4 fast 34 /sim/nathan.cidal/VLSI_T4/sim/work 1 0 0 0 491 0

@@ -1,0 +1,129 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.3 2025.09, Sep 15 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/sim/nathan.cidal/VLSI_T4/sim
+T_opt
+!i145 1
+!i144 0
+Z2 !s110 1792815938
+Vmel7L`mLL=Vfk_0AZBQF83
+04 13 4 work ps2_driver_tb fast 0
+=1-e83935110129-6adc3342-39755-269daf
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.3;82
+vps2_decoder
+2../rtl/ps2_decoder.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z5 !s110 1792815937
+!i10b 1
+!s100 8T7GOP4IW_f5zY?;Kjd3;3
+I5f:DojiU9:96E=_@DTz4i3
+S1
+R1
+w1792814349
+8../rtl/ps2_decoder.sv
+F../rtl/ps2_decoder.sv
+!i122 1
+L0 1 52
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2025.3;82
+r1
+!s85 0
+31
+Z8 !s108 1792815937.000000
+!s107 ../rtl/ps2_decoder.sv|
+!s90 ../rtl/ps2_decoder.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vps2_driver
+2../rtl/ps2_driver.sv
+R4
+R2
+!i10b 1
+!s100 =CF1nEmAaFA;ek_`8YNHm0
+IIlD=m>dAVRMY2QDzQAJdS0
+S1
+R1
+w1792815935
+8../rtl/ps2_driver.sv
+F../rtl/ps2_driver.sv
+!i122 2
+L0 1 265
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../rtl/ps2_driver.sv|
+!s90 ../rtl/ps2_driver.sv|
+!i113 0
+R9
+R3
+vps2_driver_tb
+2../sim/ps2_driver_tb.sv
+R4
+R2
+!i10b 1
+!s100 hCa0I6`J;5RKMbCNc>j@D3
+Ibz3i7?V[>dK?[BN0b?JK63
+S1
+R1
+w1792815672
+8../sim/ps2_driver_tb.sv
+F../sim/ps2_driver_tb.sv
+!i122 3
+L0 10 192
+R6
+R7
+r1
+!s85 0
+31
+!s108 1792815938.000000
+!s107 ../sim/ps2_driver_tb.sv|
+!s90 ../sim/ps2_driver_tb.sv|
+!i113 0
+R9
+R3
+vwatchdog
+2../rtl/watchdog.sv
+R4
+R5
+!i10b 1
+!s100 >?z@k3@kgg@[68l1jnFcY3
+I8ZbJc>7>Oe^azXjZOjBgk1
+S1
+R1
+w1792804022
+8../rtl/watchdog.sv
+F../rtl/watchdog.sv
+!i122 0
+L0 1 65
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 ../rtl/watchdog.sv|
+!s90 ../rtl/watchdog.sv|
+!i113 0
+R9
+R3
